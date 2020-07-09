@@ -152,7 +152,6 @@
 		qcom,dcs-cmd-by-left;
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -211,6 +210,7 @@
 			};
 
 			4k {
+				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
@@ -336,7 +336,6 @@
 		qcom,dcs-cmd-by-left;
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -360,6 +359,7 @@
 			};
 
 			4k {
+				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
@@ -507,7 +507,6 @@
 
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -566,7 +565,8 @@
 			};
 
 			4k {
-                        	somc,mdss-mdp-kickoff-threshold-enable;
+				qcom,mdss-dsi-timing-default;
+				somc,mdss-mdp-kickoff-threshold-enable;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
@@ -696,7 +696,6 @@
 		qcom,dcs-cmd-by-left;
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -720,7 +719,8 @@
 			};
 
 			4k {
-                        	somc,mdss-mdp-kickoff-threshold-enable;
+				qcom,mdss-dsi-timing-default;
+				somc,mdss-mdp-kickoff-threshold-enable;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
@@ -851,7 +851,6 @@
 		qcom,dcs-cmd-by-left;
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -910,6 +909,7 @@
 			};
 
 			4k {
+				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
@@ -1035,7 +1035,6 @@
 		qcom,dcs-cmd-by-left;
 		qcom,mdss-dsi-display-timings {
 			1080p {
-				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <540>;
 				qcom,mdss-dsi-panel-height = <1920>;
 				qcom,mdss-dsi-h-back-porch = <300>;
@@ -1059,6 +1058,7 @@
 			};
 
 			4k {
+				qcom,mdss-dsi-timing-default;
 				qcom,mdss-dsi-panel-width = <1080>;
 				qcom,mdss-dsi-panel-height = <3840>;
 				qcom,mdss-dsi-h-back-porch = <104>;
